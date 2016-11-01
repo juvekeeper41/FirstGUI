@@ -3,9 +3,10 @@ package graphic.controller;
 public class FirstGUIRunner
 {
 
-	
-	public void start()
+	public static void main (String [] args)
 	{
-		
+		FirstGUIController GUIController = new FirstGUIController();
+		GUIController.start();
 	}
+	
 }
